@@ -6,15 +6,11 @@
 /*   By: telias-p <telias-p@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/25 16:43:50 by telias-p          #+#    #+#             */
-/*   Updated: 2021/03/06 14:48:37 by telias-p         ###   ########.fr       */
+/*   Updated: 2021/04/05 20:31:24 by telias-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line_bonus.h"
-
-/*
-** strcclen devolve posição de caractere procurado na string, usando len
-*/
 
 size_t	ft_strclen(const char *str, const char c)
 {
@@ -26,10 +22,6 @@ size_t	ft_strclen(const char *str, const char c)
 	return (i);
 }
 
-/*
-** strlen descobre o tamanho da string
-*/
-
 size_t	ft_strlen(const char *str)
 {
 	int	i;
@@ -40,10 +32,6 @@ size_t	ft_strlen(const char *str)
 	return (i);
 }
 
-/*
-** strdel libera memoria da string armazenada e deleta o conteudo da string apontada
-*/
-
 void	ft_strdel(char **str)
 {
 	if (*str && str)
@@ -52,10 +40,6 @@ void	ft_strdel(char **str)
 		*str = NULL;
 	}
 }
-
-/*
-** memcpy copia n caracteres de src para dest
-*/
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
@@ -71,11 +55,6 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-
-/*
-** stjoin junta as strings fornecidas no argumento, e retorna uma string
-** alocada new_str, depois libera mem com strdel, de dest
-*/
 
 char	*ft_strjoin_free(char *dest, char *src)
 {

@@ -6,7 +6,7 @@
 /*   By: telias-p <telias-p@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/25 16:44:02 by telias-p          #+#    #+#             */
-/*   Updated: 2021/03/06 14:26:45 by telias-p         ###   ########.fr       */
+/*   Updated: 2021/04/05 20:31:10 by telias-p         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,10 +15,6 @@
 
 # include <unistd.h>
 # include <stdlib.h>
-
-/*
-** MAX FILE DESCRIPTOR, RLIMIR_NOFILE determina num max de arq a serem abertos
-*/
 
 # define MAX_FILE_DESCRIPTOR	RLIMIT_NOFILE
 
