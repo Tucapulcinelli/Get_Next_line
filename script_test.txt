@@ -56,7 +56,7 @@ make
 cd ..
 
 # RUN 42TESTERS-GNL
-cd 42TESTERS-GNLclear
+cd 42TESTERS-GNL
 ./all_tests.sh
 cd ..
 
